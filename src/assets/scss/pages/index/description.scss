@@ -1,0 +1,20 @@
+.description {
+  position: relative;
+  margin: 10px 20px;
+  line-height: 1.2;
+
+  .subtitle {
+    font-size: 1.4rem;
+    color: $primaryLightGreyColor;
+    font-family: $primaryFontRegular;
+    margin-bottom: 3px;
+  }
+
+  &__text {
+    font-size: 1.4rem;
+  }
+
+  &__tags {
+    display: flex;
+  }
+}

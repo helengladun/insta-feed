@@ -1,0 +1,17 @@
+.icon {
+  &_small-divider {
+    height: 30px;
+    width: 1px;
+    padding: 0;
+    background-color: lighten($primaryLightGreyColor, 30%);
+  }
+
+  &_plus {
+    background-image: url("/images/icons/18.png");
+    height: 5px;
+    display: flex;
+    margin: 0 3px;
+    justify-content: center;
+    width: 5px;
+  }
+}

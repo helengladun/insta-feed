@@ -1,0 +1,13 @@
+mixin followers(items)
+    .followers
+        .followers__title Followed by
+        each item, index in items
+            .followers__item
+                if index === items.length - 1
+                    .follower #{item.name}
+                else
+                    .follower #{item.name}
+                    .text_grey ,&nbsp;
+        .followers__more
+            .icon_plus
+            a.followers__link(href="#") #{items.length} more

@@ -1,0 +1,19 @@
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px -10px 10px;
+
+  .content-item {
+    flex: 0 0 33.33%;
+    box-sizing: border-box;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .main-content {
+    .content-item {
+      flex: 0 0 50%;
+    }
+  }
+}

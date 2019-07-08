@@ -1,0 +1,16 @@
+include followers
+
+mixin description(title, approved, subtitle, followers)
+    .description&attributes(attributes)
+        if approved
+            .main-title-box
+                .main-title.main-title_approved=title
+                .approved-icon
+                    img(src="/images/icons/18.png" alt="logo")
+        else
+            .main-title=title
+        .subtitle=subtitle
+        block
+        if followers
+            +followers(followers)
+

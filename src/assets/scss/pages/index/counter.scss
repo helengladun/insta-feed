@@ -1,0 +1,17 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  &__number {
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-family: $primaryFontBold;
+    margin-bottom: 3px;
+  }
+
+  &__name {
+    font-size: 1.4rem;
+    color: $primaryLightGreyColor;
+  }
+}

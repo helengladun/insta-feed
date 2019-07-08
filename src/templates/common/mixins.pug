@@ -1,0 +1,14 @@
+mixin head(title, style)
+    head
+        title #{title}
+
+        meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+        meta(name="keywords" content="")
+        meta(name="description" content="")
+        meta(name="author" content="")
+        meta(name="copyright" content="")
+        meta(name="MobileOptimized" content="320")
+        meta(name="viewport" content="width=device-width")
+
+        link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css')
+        link(rel="stylesheet" href=style)

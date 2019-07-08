@@ -1,0 +1,23 @@
+.text {
+  font-size: 1.6rem;
+
+  &_uppercase {
+    text-transform: uppercase;
+  }
+
+  &_grey {
+    color: $primaryLightGreyColor;
+  }
+
+  &_right {
+    text-align: right;
+  }
+
+  &_left {
+    text-align: left;
+  }
+
+  &_12 {
+    font-size: 1.2rem;
+  }
+}

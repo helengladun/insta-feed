@@ -1,0 +1,22 @@
+.top-btns-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    font-family: $primaryFontBold;
+    padding: 5px 5px;
+    font-size: 1.2rem;
+  }
+
+  &__message {
+    flex: 1 0 60%;
+    margin-right: 8px;
+    max-width: 200px;
+    font-family: $primaryFontMedium;
+  }
+
+  &__account {
+    margin-right: 8px;
+  }
+}

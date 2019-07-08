@@ -1,0 +1,14 @@
+include ../common/mixins
+include ../common/description
+
+doctype html
+html(lang="en")
+    +head("Home page", "./css/app.css")
+    body
+        .container
+            include ../common/main-header
+            main
+                include index/description-box
+                include index/video-content
+                include index/menu
+                include index/main-content

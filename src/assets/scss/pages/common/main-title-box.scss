@@ -1,0 +1,10 @@
+.main-title-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  .approved-icon {
+    display: flex;
+    margin-left: 10px;
+  }
+}

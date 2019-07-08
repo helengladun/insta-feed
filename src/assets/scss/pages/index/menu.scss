@@ -1,0 +1,26 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &_main, &_tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid lighten($primaryLightGreyColor, 30%);
+  }
+
+  &__item {
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    font-family: $primaryFontMedium;
+    font-size: 1.8rem;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
